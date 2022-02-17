@@ -1,0 +1,382 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+*h1,h2,h3,h4,h5,p{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background: #25272d;
+}
+
+.navbar-light .navbar-brand img{
+    height: 100px;
+    width: 150px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-top: 2px solid transparent;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.have_questions{
+    text-align: right;
+    margin-top: 15px;
+}
+.have_questions h3{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+.have_questions h2{    
+    font-size: 20px;    
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    transition: .4s all ease-in-out;
+    background: #278dd6;
+    border-top: 2px solid;
+}
+/* title part start here  */
+.title{
+
+}
+.title h1{
+    font-family: 'Heebo', sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    text-align: left;
+}
+.title span{
+    position: relative;
+    display: block;
+    height: 2px;
+    width: 10%;
+    left: 0%;
+}
+.title span::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    height: 100%;
+    width: 0%;
+    background: #28abff;
+    transition: .4s all;
+    margin-top: 30px;
+}
+.title:hover span::before{
+    width: 48%;
+}
+
+/* title part end here  */
+
+/* details part start here  */
+.details{
+
+}
+.details h1{
+
+font-size: 50px;
+
+text-transform: capitalize;
+
+font-family: 'Heebo', sans-serif;
+
+font-weight: 500;
+}
+.details p{
+    
+font-family: 'Heebo', sans-serif;
+    
+font-weight: 400;
+}
+    
+/* details part end here  */
+
+/* counter part start  here  */
+.counter_part{
+    
+}
+.count_number{
+
+text-align: center;
+}
+.count_number span{
+
+font-size: 55px;
+
+font-family: 'Heebo', sans-serif;
+
+font-weight: 700;
+
+color: #5c5555;
+}
+.count_number i{
+ 
+font-size: 60px;
+ 
+font-style: normal;
+ 
+color: #5c5555;
+}
+.count_number h4{
+
+text-transform: capitalize;
+
+color: #999999;
+
+font-family: 'Heebo', sans-serif;
+
+font-size: 20px;
+
+font-weight: 400;
+}
+/* counter part end here  */
+
+/* request form info start here  */
+.request_form{
+    background: #25272d;
+    }
+    .request {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+    .request h1{
+    font-size: 48px;
+    font-weight: 500;
+    font-family: 'Heebo',sans-serif;
+    text-transform: capitalize;
+    }
+    .request p{
+    font-size: 18px;
+    padding: 0px 20px 0px 0px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    }
+    .request p span{
+    font-size: 16px;
+    }
+    .request ul{
+    padding: 0px;
+    list-style: none;
+    margin-top: 35px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    }
+    .request ul li{
+    }
+    .request ul li h4{
+    font-size: 20px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    }
+    .request ul li h4 i{
+        height: 20px;
+        width: 20px;
+        font-size: 17px;
+        color: #2eadfe;
+    }
+    .req_form{
+        background: #25272d;
+        padding: 25px;
+    }
+    .req_form h2{
+        font-family: 'Heebo', sans-serif;
+        font-size: 20px;
+        margin-top: 16px;
+        color: #fff;
+    }
+    .req_form h2 span{
+        color: #ff4646;
+        font-size: 15px;
+    }
+    
+    .req_form button{
+        margin-top: 20px;
+        padding: 5px 10px;
+        border: 1px solid #2eadfe;
+        color: #2eadfe;
+        background: transparent;
+        text-transform: capitalize;
+    }
+    .form-control:focus {
+        box-shadow: none !important;
+    }
+    .req_form button:hover {
+        transition: .4s all ease-in-out;
+        color: #fff;
+        background:  #2eadfe;
+    }
+    .keep_in_tuch{
+
+    }
+    .keep_in_tuch h2{
+
+color: #fff;
+
+text-transform: capitalize;
+
+}
+    .keep_in_tuch ul{
+        
+display: flex;
+        
+align-items: center;
+        
+list-style: none;
+    }
+    .keep_in_tuch ul li{
+
+list-style: none;
+
+padding: 0;
+
+}
+.keep_in_tuch ul li a{
+
+text-decoration: none;
+
+color: #fff;
+transition: .4s all ease-in-out;
+
+}
+.keep_in_tuch ul li a i{
+
+font-size: 30px;
+
+margin-right: 11px;
+
+}
+.keep_in_tuch ul li a:hover{
+    color: #3788c2;
+}
+    /* request form info end here  */
+
+
+/* map section start here  */
+.map_part{
+
+}
+.contact_details{
+
+}
+.contact_details h1{
+
+font-size: 20px;
+
+text-transform: uppercase;
+}
+.contact_details h1 i{
+
+font-size: 30px;
+
+color: #2ba1f7;
+
+margin-right: 10px;
+}
+.contact_details p{
+    
+margin-left: 44px;
+}
+/* map sections end here */
+
+
+
+
+
+
+
+/* foter section start here  */
+footer{
+    background: #25272d;
+}
+
+.description_content img{
+width: 30%;
+}
+.description_content p{
+color: #fff;
+margin-top: 5px;
+margin-bottom: 15px;
+font-family: 'Heebo', sans-serif;
+font-weight: 400;
+}
+.description_content ul{    
+list-style: none;    
+padding: 0px;    
+display: flex;
+}
+
+.description_content ul li a{
+    text-decoration: none;
+}
+.description_content ul li a i{
+height: 20px;
+width: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 15px;
+font-size: 20px;
+color: #28abff;
+}
+.description_content ul li a i:hover{
+    color: #3173a1;
+}
+.footer_service_content{
+margin-left: 25px;
+}
+.footer_service_content h2{
+color: #fff;
+text-transform: capitalize;
+font-size: 30px;
+margin-bottom: 25px;
+}
+
+.footer_service_content ul{
+list-style: none;
+padding: 0px;
+}
+.footer_service_content ul li{
+margin-top: 8px;
+}
+.footer_service_content ul li a{
+text-decoration: none;
+color: #fff;
+font-size: 18px;
+font-family: 'Heebo', sans-serif;
+font-weight: 400;
+}
+.footer_service_content ul li h4{    
+font-size: 16px;    
+color: #fff;    
+font-family: 'Heebo', sans-serif;    
+font-weight: 400;
+}
+.footer_service_content ul li a:hover{
+    transition: .4s all ease-in-out;
+    color: #278dd6;
+}
+.term_conditions{
+border-top: 1px solid #786c6c;
+}
+.terms{
+display: flex;
+justify-content: space-between;
+text-align: center;
+}
+.terms h1{    
+font-size: 16px;    
+color: #fff;
+}
+/* foooter section end here  */

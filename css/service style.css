@@ -1,0 +1,444 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+*h1,h2,h3,h4,h5,p{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background: #25272d;
+}
+
+.navbar-light .navbar-brand img{
+    height: 100px;
+    width: 150px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-top: 2px solid transparent;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.have_questions{
+    text-align: right;
+    margin-top: 15px;
+}
+.have_questions h3{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+.have_questions h2{    
+    font-size: 20px;    
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    transition: .4s all ease-in-out;
+    background: #278dd6;
+    border-top: 2px solid;
+}
+/* title part start here  */
+.title{
+
+}
+.title h1{
+    font-family: 'Heebo', sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+}
+.title span{
+    position: relative;
+    display: block;
+    height: 2px;
+    width: 10%;
+    /* background: #1a7fc0;     */
+    left: 51%;
+    transform: translateX(-51%);
+}
+.title span::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 45%;
+    height: 100%;
+    width: 0%;
+    background: #28abff;
+    transform: translatex(-45%);
+    transition: .4s all;
+}
+
+.title:hover span::before{
+    width: 48%;
+}
+
+/* title part end here  */
+
+/* gurding part start here  */
+.gurding{
+
+background: #f7f7f8;
+}
+.gurd_content{
+
+text-align: center;
+
+padding: 15px;
+}
+.gurd_content i{
+
+height: 52px;
+
+width: 52px;
+
+font-size: 50px;
+
+color: #1a7fc0;
+}
+.gurd_content h1{
+
+font-size: 30px;
+
+margin-top: 20px;
+
+text-transform: capitalize;
+}
+.gurd_content p{
+
+line-height: 30px;
+
+padding: 20px;
+
+margin: 0px;
+}
+/* gurding part end here  */
+
+/* services part start here  */
+.service{
+
+}
+.access_img{
+
+}
+.access_img img{
+
+}
+.service_content{
+
+padding: 20px;
+
+margin-top: 85px;
+}
+.service_content h1{
+
+font-size: 45px;
+
+font-family: 'Heebo', sans-serif;
+
+font-weight: 400;
+
+margin: 0px;
+}
+.service_content p{
+    
+font-family: 'Heebo', sans-serif;
+    
+font-size: 18px;
+    
+color: #999999;
+    
+margin-top: 25px;
+}
+
+/* service part end here  */
+
+/* private security trainning part start here  */
+.security_trainning{
+
+}
+.security_trainning h4{
+
+color: #fff;
+
+text-transform: uppercase;
+
+font-size: 16px;
+
+letter-spacing: 3px;
+
+font-family: 'Heebo', sans-serif;
+
+font-weight: 400;
+}
+.security_trainning h1{
+
+color: #fff;
+
+text-transform: capitalize;
+
+margin: 0px;
+
+font-family: 'Heebo', sans-serif;
+
+font-weight: 600;
+
+font-size: 45px;
+}
+.security_trainning p{
+    
+color: #fff;
+    
+font-family: 'Heebo', sans-serif;
+    
+font-weight: 400;
+    
+margin-top: 30px;
+    
+padding: 0px 150px;
+}
+.security_trainning button{    
+    border: 1px solid #fff;    
+    background: transparent;    
+    color: #fff;    
+    text-transform: uppercase;    
+    padding: 10px 20px;    
+    letter-spacing: 1px;    
+    margin-top: 25px;
+    transition: .4s all ease-in-out;
+}
+.security_trainning button:hover{
+    background: #fff;
+    color: #000;
+}
+/* parivate security trainning part end here  */
+
+/* all content part start here  */
+.all_content{
+
+}
+.all_content_content{
+
+padding-top: 10px;
+
+padding-bottom: 10px;
+}
+.content_image{
+    position: relative;
+}
+.content_image img{
+
+margin-bottom: 10px;
+
+}
+.content_image::before{
+    content: '';
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    background: rgba(255, 255, 255, 0.397);
+    transition: all .4s ease-in-out;
+}
+.content_image:hover:before{
+    height: 100%;
+}
+.content_image button{
+    
+position: absolute;
+    
+left: 50%;
+    
+bottom: 25%;
+    
+transform: translate(-50%, -35%);
+    
+border: 1px solid #000;
+    
+background: transparent;
+    
+color: #fff;
+    
+font-size: 20px;
+    
+padding: 10px 20px;
+    
+font-weight: 600;
+    
+background: #000;
+opacity: 0;
+transition: .4s all ease-in-out;
+}
+.content_image:hover button{
+    bottom: 35%;
+    opacity: 1;
+
+}
+
+
+.all_content_content h1{
+
+font-size: 25px;
+
+font-family: 'Heebo', sans-serif;
+
+font-weight: 500;
+
+text-align: center;
+
+margin: 0pc;
+
+margin-top: 20px;
+}
+
+.all_content_content p{
+
+font-family: 'Heebo', sans-serif;
+
+text-align: center;
+
+margin-top: 30px;
+
+padding: 10px;
+}
+/* all content part end here  */
+
+
+/* foter section start here  */
+footer{
+
+    background: #25272d;
+}
+.description{
+
+}
+.description_content {
+
+}
+.description_content img{
+
+width: 30%;
+}
+.description_content p{
+
+color: #fff;
+
+margin-top: 5px;
+
+margin-bottom: 15px;
+
+font-family: 'Heebo', sans-serif;
+
+font-weight: 400;
+}
+.description_content ul{
+    
+list-style: none;
+    
+padding: 0px;
+    
+display: flex;
+}
+.description_content ul li{
+    
+}
+.description_content ul li a{
+    text-decoration: none;
+}
+.description_content ul li a i{
+
+height: 20px;
+
+width: 20px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+margin-right: 15px;
+
+font-size: 20px;
+
+color: #28abff;
+}
+.description_content ul li a i:hover{
+    color: #3173a1;
+}
+.footer_service_content{
+
+margin-left: 25px;
+}
+.footer_service_content h2{
+
+color: #fff;
+
+text-transform: capitalize;
+
+font-size: 30px;
+
+margin-bottom: 25px;
+}
+
+.footer_service_content ul{
+
+list-style: none;
+
+padding: 0px;
+}
+.footer_service_content ul li{
+
+margin-top: 8px;
+}
+.footer_service_content ul li a{
+
+text-decoration: none;
+
+color: #fff;
+
+font-size: 18px;
+
+font-family: 'Heebo', sans-serif;
+
+font-weight: 400;
+}
+.footer_service_content ul li h4{
+    
+font-size: 16px;
+    
+color: #fff;
+    
+font-family: 'Heebo', sans-serif;
+    
+font-weight: 400;
+}
+.footer_service_content ul li a:hover{
+    transition: .4s all ease-in-out;
+    color: #278dd6;
+}
+.term_conditions{
+
+border-top: 1px solid #786c6c;
+}
+.terms{
+
+display: flex;
+
+justify-content: space-between;
+
+text-align: center;
+}
+.terms h1{
+    
+font-size: 16px;
+    
+color: #fff;
+}
+/* foooter section end here  */
