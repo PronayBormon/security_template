@@ -172,6 +172,25 @@ font-weight: 400;
     background-color: #f7f7f8;
     z-index: -1;
 }
+@media only screen and (max-width: 600px) {
+    
+    .supririos::before{
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 50%;
+        height: 100%;
+        background-color: #1a7fc0;
+        z-index: -1;
+    }
+    .supririos_content h1 {
+        color: #fff;
+    }
+    .supririos_content p{
+        color: #fff !important;
+    }
+  }
 .supririos::after{
     content: '';
     position: absolute;
@@ -252,7 +271,7 @@ font-family: 'Heebo', sans-serif;
     
 font-weight: 400;
 }
-.supririos_content button::before{
+.supririos_content button a::before{
     content: "";
     position: absolute;
     top: -7px;
@@ -264,15 +283,22 @@ font-weight: 400;
     height: 56px;
     transition: all 0.3s ease;
 }
-.supririos_content button:hover{
+.supririos_content button a:hover{
     transition: all 0.3s ease;
     color: #fff;
 }
-.supririos_content button:hover:before{
+.supririos_content button a:hover:before{
     width: 100%;
     background: #1a7fc0;
     color: #fff;
     z-index: -1;
+}
+.supririos_content button a{
+    text-decoration: none;
+    color: #1a7fc0;
+}
+.supririos_content button a:hover{
+    color: #fff;
 }
 /* supirior section end here  */
 
@@ -736,3 +762,8 @@ font-size: 16px;
 color: #fff;
 }
 /* foooter section end here  */
+
+.navbar-light .navbar-toggler-icon i{
+    color: #fff !important;
+    font-size: 30px;
+}
